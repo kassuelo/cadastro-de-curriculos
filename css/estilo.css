@@ -1,0 +1,242 @@
+body{
+    background-color: whitesmoke;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:0px;
+    margin:0px;
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+h3{
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: center;
+}
+
+.banner{
+    align-items: center;
+    background-image: url(../imagens/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 100%;
+    height: 180px;
+    background-color: white;
+    border-top:20px solid;
+    border-top-color: #312682;
+}
+.login{
+	margin-top:20px;					
+    padding:10px;
+    width: 80%;
+    float: left;
+    background-color: white;
+    border:1px solid #ccc;
+    font-size: 14px;
+    text-justify:  auto;
+    text-align: justify;
+    line-height: 30px; 
+}
+.login_form{
+	margin-right:10px;
+	margin-left:10px;
+	margin-top:20px;
+    padding:10px;
+    width: 15%;
+    height:100%;
+    float: right;
+    background-color: white;
+    border:1px solid #ccc;
+    font-size: 14px;
+    text-justify:  auto;
+    text-align: justify;
+    line-height: 30px; 
+}
+
+.corpo{
+    margin:0px;
+    padding:30px;
+    width: 65%;
+    float: left;
+    text-align: center;
+    background-color: white;
+    border:1px solid #ccc;
+    font-size: 16px;
+    text-justify:  auto;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.corpo form {
+    width:800px;
+    margin:auto;
+}
+p + p {
+  text-indent: 1.5em;
+}
+
+.candidatos_img, .candidatos_dados{
+    width: 200px;
+    margin-left:10px;
+    height: 200px;
+    margin-bottom:50px;
+    margin-top:50px;
+    float:left;
+}
+.candidatos_img img{
+    max-width: 200px;
+}
+
+.nome_campo{
+
+    width: 160px;
+    height: 50px;
+    float: left;
+    text-align: right;
+}
+.campos{
+    margin-left: 10px;
+    margin-right: 100px;
+    width: 490px;
+    float: right;
+    height: 50px;
+}
+.botao_curriculo{
+    margin-right: 50px;
+    width:100px;
+    float: left;
+    height: 50px;
+}
+
+.vagas {
+    margin:auto;
+    border-spacing: 5px 5px;
+
+}
+.vagas th{
+    text-align: center;
+    padding:5px;
+    background-color:  #ccc;
+}
+.vagas td, th{
+    font-size: 16px;
+    border-bottom:2px solid  #ccc;
+
+}
+
+.public {
+    align-items: center;
+    background-image: url(../imagens/public.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 15%;
+    height:600px;
+    float: left;
+    text-align: center;
+    margin-left: 3px;
+    color:white;
+}
+
+.menu_h{
+    margin-bottom: 10px; 
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    background-color:#312682;
+}
+.menu_h ul{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+
+}
+.menu_h ul a {
+    padding:0px;
+    margin:0px;
+    display: inline-block;
+    background-color:#312682;
+    width: 24.82%;
+    vertical-align: middle;
+    text-align: center;
+    line-height:40px;
+    color:white;
+    border-left: white 2px solid;
+}
+.menu_h ul a li:hover{
+    margin-top: -3px;
+    height: 43px;
+
+}
+.menu_h ul a li:visited,.menu_v ul a li:visited{
+    background-color:black;
+}
+.menu_h ul li a{
+
+    display: block;
+    width: 60px;
+}
+.menu_h ul a,.menu_v ul a{
+    text-decoration: none;
+}
+
+.menu_v{
+    width: 14%;
+    height: 185px;
+    margin-right: 3px;
+    padding: 0px;
+    float: left;
+
+}
+.menu_v ul{
+    border:  #ccc 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    background-color: #312682;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.menu_v ul a{ 
+    padding: 0px;
+    text-align: left;
+    list-style-type: none;
+    height:40px;
+    background-color: white;
+    color:black;
+    line-height:40px;
+    text-indent: 10px;
+    font-size:14px;
+}
+.menu_v ul a li:hover{
+    border-left: #312682 5px solid;
+    color:black;
+    width: 120%;
+}
+
+.rodape{
+    display: block;
+    text-align: center;
+    margin-top:50px;
+    padding-top:50px;
+    width: 100%;
+    height: 50px;
+    background-color: #312682;
+    font-size: 16px;
+    color:white;
+
+}
